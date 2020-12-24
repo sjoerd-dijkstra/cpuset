@@ -413,8 +413,8 @@ def modify(name, cpuspec=None, memspec=None, cx=None, mx=None):
     log.debug('modifying cpuset "%s"', nset.name)
     if cpuspec: nset.cpus = cpuspec
     if memspec: nset.mems = memspec
-    if cx: nset.cpu_exclusive = cx
-    if mx: nset.mem_exclusive = mx
+    # if cx: nset.cpu_exclusive = cx
+    # if mx: nset.mem_exclusive = mx
 
 def active(name):
     """check that cpuset by name or cset is ready to be used"""
