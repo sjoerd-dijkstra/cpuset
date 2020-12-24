@@ -1,8 +1,6 @@
 """Cpuset class and cpuset graph, importing module will create model
 """
 import io
-from builtins import str
-from builtins import object
 __copyright__ = """
 Copyright (C) 2007-2010 Novell Inc.
 Copyright (C) 2013-2017 SUSE
