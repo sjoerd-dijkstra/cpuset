@@ -27,11 +27,7 @@ from cpuset import config
 from cpuset import cset
 from cpuset.util import *
 from cpuset.commands.common import *
-try: from cpuset.commands import proc
-except SyntaxError:
-    raise
-except: 
-    pass
+from cpuset.commands import proc
 
 global log
 log = logging.getLogger('set')
